@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include pyproject.toml
+recursive-include web/templates *.html
+recursive-include web/static *.js *.css *.svg *.png
+recursive-include cloudnest_pilot *.py *.typed
+recursive-include tools *.py
+exclude .env
+exclude .env.example
+prune tests
+prune docs
+prune .github
+prune .venv
