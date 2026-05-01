@@ -85,3 +85,4 @@ site/
 _site/
 .docusaurus/
 start-agent.sh
+readme-preview.html

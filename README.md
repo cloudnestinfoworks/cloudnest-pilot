@@ -10,7 +10,7 @@ and runs the deployment — asking for your approval before every change.
 [![PyPI](https://img.shields.io/pypi/v/cloudnest-pilot)](https://pypi.org/project/cloudnest-pilot/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![Tests](https://github.com/cloudnestinfoworks/cloudnest-pilot/actions/workflows/test.yml/badge.svg)](https://github.com/cloudnestinfoworks/cloudnest-pilot/actions/workflows/test.yml)
-[![Discord](https://img.shields.io/badge/discord-join-5865F2)](https://discord.gg/your-invite)
+[![GitHub Discussions](https://img.shields.io/badge/discussions-join-FF6B35)](https://github.com/cloudnestinfoworks/cloudnest-pilot/discussions)
 
 </div>
 
@@ -47,9 +47,11 @@ Total clicks: 3.  Total time you spent thinking about it: 5 minutes.
 
 ## Quick demo
 
-![Demo](docs/screenshots/demo.gif)
+<p align="center">
+  <img src="docs/screenshots/01-welcome.png" alt="Cloudnest Pilot welcome screen" width="800">
+</p>
 
-Watch the [2-minute demo video](https://youtu.be/your-video-id) →
+<p align="center"><sub>Cloudnest Pilot's web UI on first launch — type what you want to do, the agent plans the work.</sub></p>
 
 ## Why this exists
 
@@ -155,6 +157,12 @@ tool does before they invest in setup.
 > command requires your approval, so the worst case is "deny something
 > unexpected and try again."
 
+<p align="center">
+  <img src="docs/screenshots/05-install-config.png" alt="Generated install-config.yaml" width="800">
+</p>
+
+<p align="center"><sub>The agent generates production-shaped <code>install-config.yaml</code> from a plain-English request.</sub></p>
+
 | Capability | Status |
 |---|---|
 | Deploy on AWS via IPI | 🧪 Alpha |
@@ -226,6 +234,22 @@ sandbox. The real safety boundary is your approval click.
 
 Every command run is logged to `~/.cloudnest-pilot/history.log` with
 timestamps. If something unexpected happens, you have a record.
+
+### What approval looks like
+
+When the agent wants to run a shell command or write a file, it shows you
+an approval card with the exact action and asks for your call:
+
+<p align="center">
+  <img src="docs/screenshots/03-approval-card.png" alt="Approval card requesting permission to run a shell command" width="800">
+</p>
+
+If you click **Approve & run**, the action executes and the result is
+returned to the conversation:
+
+<p align="center">
+  <img src="docs/screenshots/04-approved-result.png" alt="Approved action with result and agent follow-up" width="800">
+</p>
 
 ## Pricing
 
