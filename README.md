@@ -277,7 +277,7 @@ they need. Likely candidates:
 - SSO, audit logs, RBAC for compliance
 - Slack and Teams integrations
 
-If any of these matter to you, [join the Pro waitlist](https://cloudnestinfoworks.com/pilot/pro)
+If any of these matter to you, [join the Pro waitlist](https://github.com/cloudnestinfoworks/cloudnest-pilot/discussions/categories/ideas)
 — we'll ask early adopters what they'd actually pay for before we commit
 to pricing or features.
 
@@ -360,7 +360,7 @@ those extensively yet. If you hit a platform-specific bug,
 **Q: Can I use this in my company?**
 
 A: Yes — Apache 2.0 license, no usage restrictions. If your team needs SSO,
-audit logs, shared credentials, or RBAC, [tell us about your use case](https://cloudnestinfoworks.com/pilot/pro)
+audit logs, shared credentials, or RBAC, [tell us about your use case](https://github.com/cloudnestinfoworks/cloudnest-pilot/discussions/categories/ideas)
 — we're collecting input from early teams to shape the Pro tier.
 
 **Q: What if Anthropic deprecates Sonnet?**
