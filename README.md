@@ -120,6 +120,12 @@ Cloudnest Pilot uses Claude AI under the hood. Get an Anthropic API key:
 3. **Set a spending cap** at https://console.anthropic.com/settings/limits
    (recommended: $20/month — typical usage is $3-5/month)
 
+> 💡 **Just want to evaluate Cloudnest Pilot?** Anthropic gives ~$5 in free
+> credits to new accounts (no credit card required, just phone verification).
+> That's enough for dozens of conversations — plenty to test this tool.
+> Or skip the API key entirely and use `cloudnest-pilot --demo` mode for a
+> tour with canned responses.
+
 You bring your own API key — Cloudnest Pilot never proxies your conversations
 through any server we control.
 
